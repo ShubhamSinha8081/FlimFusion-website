@@ -5,6 +5,7 @@
   font-family: "poppins", sans-serif;
 }
 body{
+  position: relative;
   margin: 0px;
   padding: 0px;
   background-color: #eef8ff;
@@ -14,7 +15,7 @@ a{
 }
 nav{
   z-index: 999;
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -23,6 +24,7 @@ nav{
   align-items: center;
   padding: 15px 100px;
   transition: 0.3s ease;
+  background-color: #000000c9;
 }
 .logo img{
   height: 53px;
@@ -83,6 +85,7 @@ header{
 }
 .home{
   position: relative;
+  top: -12%;
   width: 100%;
   min-height: 100vh;
   display: flex;
