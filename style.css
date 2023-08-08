@@ -22,7 +22,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 100px;
+  padding: 13px 100px;
   transition: 0.3s ease;
   background-color: #000000c9;
 }
@@ -333,4 +333,20 @@ header{
 .footername:hover {
   text-decoration: none;
   color: crimson;
+}
+.search-bar{
+  padding: 10px;
+  width: 270px;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  font-size: 14px;
+}
+.search-btn{
+  border: none;
+  background-color: transparent;
+  margin-left: -32px;
+}
+.search{
+  display: flex;
 }
